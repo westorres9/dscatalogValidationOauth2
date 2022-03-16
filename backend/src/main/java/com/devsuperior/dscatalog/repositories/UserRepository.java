@@ -9,4 +9,6 @@ import com.devsuperior.dscatalog.entities.Category;
 @Repository
 public interface UserRepository extends JpaRepository<User, Long> {
 
+    User findByEmail(String email);
+
 }
