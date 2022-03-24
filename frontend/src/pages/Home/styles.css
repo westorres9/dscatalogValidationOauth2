@@ -84,11 +84,6 @@
         padding: 20px 20px 100px 20px;  
     }
 
-    .home-content-container button {
-        width: 506px;
-        height: 60px;
-    }
-
 }
 
 @media(min-width:992px) {
@@ -121,10 +116,6 @@
         height: 75px;
     }
 
-    .home-content-container button {
-        width: 506px;
-        height: 70px;
-    }
 }
 
 @media(min-width:1200px) {
@@ -155,10 +146,6 @@
         width: 100%;
     }
 
-    .home-content-container button {
-        width: 506px;
-        height: 70px;
-    }
 
 }
 
@@ -167,9 +154,4 @@
         width: 480px;
     }
 
-    .home-content-container button {
-        width: 506px;
-        height: 70px;
-        font-size: 30px
-    }
 }
