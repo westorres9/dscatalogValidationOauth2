@@ -6,15 +6,17 @@
     padding: 16px 0;
     border-bottom: 1px solid #e1e1e1;
     text-align: center;
+    margin-bottom: 20px;
 }
 
 .card-top-container img {
-    width: 158px;
-    height: 158px;
+    width: auto;
+    height: 175px;
 }
 
 .card-bottom-container {
     padding: 15px 20px 30px 20px;  
+    margin-bottom: 20px;
 }
 
 .card-bottom-container h6 {

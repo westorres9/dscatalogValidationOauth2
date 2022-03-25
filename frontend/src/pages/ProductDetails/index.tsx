@@ -1,5 +1,6 @@
 import { ReactComponent as ArrowIcon } from 'assets/images/arrow.svg';
 import ProductPrice from 'Components/ProductPrice';
+import { Link } from 'react-router-dom';
 import './styles.css';
 
 function ProductDetails () {
@@ -9,7 +10,9 @@ function ProductDetails () {
             <div className="base-card product-details-card">
                 <div className="go-back-container">
                     <ArrowIcon/>
-                    <h2>VOLTAR</h2>
+                    <Link to="/products">
+                        <h2>VOLTAR</h2>
+                    </Link>    
                 </div>
                 <div className="row">
                     <div className="col-xl-6">
