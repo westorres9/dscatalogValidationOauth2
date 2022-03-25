@@ -61,10 +61,6 @@
         margin-bottom: 20px;    
     }
 
-    .home-content-container button {
-        width: 506px;
-        height: 50px;
-    }
 
     .home-image-container svg{
         width: 506px;
@@ -109,11 +105,6 @@
     .home-content-container p {
         width: 700px;
         margin-bottom: 50px;    
-    }
-
-    .home-content-container button {
-        width: 70%;
-        height: 75px;
     }
 
 }
