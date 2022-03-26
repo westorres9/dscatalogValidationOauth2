@@ -13,7 +13,7 @@ function ProductDetails () {
     
 
     useEffect(() => {
-        axios.get(BASE_URL + "/products/3")
+        axios.get(BASE_URL + "/products/1")
         .then(response => {
            setProduct(response.data);
         });
@@ -38,13 +38,8 @@ function ProductDetails () {
                             alt={ product?.name} />
                         </div>
                         <div className="name-price-container">
-<<<<<<< HEAD
-                            <h1>Smart TV</h1>
-                            <ProductPrice price={2345.67}/>
-=======
-                            <h1>{ product?.name}</h1>
+                            <h1>{product?.name}</h1>
                             {product && <ProductPrice price={product?.price}/>}
->>>>>>> 17ef3d20fbff9f2dbaa8cffdf4ff1eed53ed0874
                         </div>
                     </div>
                     <div className="col-xl-6">
