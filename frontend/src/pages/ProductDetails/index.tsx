@@ -20,7 +20,7 @@ function ProductDetails () {
                             <img src="https://raw.githubusercontent.com/devsuperior/dscatalog-resources/master/backend/img/2-big.jpg" alt="" />
                         </div>
                         <div className="name-price-container">
-                            <h1>Computador i7</h1>
+                            <h1>Smart TV</h1>
                             <ProductPrice price={2345.67}/>
                         </div>
                     </div>
